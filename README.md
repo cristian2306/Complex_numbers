@@ -32,8 +32,8 @@ la libreria contiene comentarios en cada una de sus funciones en donde se explic
    ![Imgur](https://i.imgur.com/M9Y5Vzn.png)
  + Para ejecutar las fucniones de __modulo,fase,polar,conjugado__, debe llamar cada una de las funciones de la siguiente mánera.    
  
- ![Imgur](https://i.imgur.com/RvCz1Ev.png)
+   ![Imgur](https://i.imgur.com/RvCz1Ev.png)
  + Para ejecutar la función __cartesiana__, debe crear un número complejo en forma polar de la misma mánera que se creó un número complejo en forma cartesiana. Sin embargo en este   caso se le asigna a la variable __complex_polar(norma,ángulo)__ , asi ya puede hacer uso de la función __cartesiana__. De la siguiente mánera.   
  
-  ![Imgur](https://i.imgur.com/6q1LP7x.png)
+   ![Imgur](https://i.imgur.com/6q1LP7x.png)
  
