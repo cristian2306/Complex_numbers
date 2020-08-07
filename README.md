@@ -37,3 +37,5 @@ la libreria contiene comentarios en cada una de sus funciones en donde se explic
  
    ![Imgur](https://i.imgur.com/6q1LP7x.png)
  
+ ## Autor
+ ### Cristian Andres Castellanos Fino
