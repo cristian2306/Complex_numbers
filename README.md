@@ -50,10 +50,10 @@ la libreria contiene comentarios en cada una de sus funciones en donde se explic
    ![Imgur](https://i.imgur.com/zMsCrNB.png)
  + Para ejecutar las fucniones de __modulo,fase,polar,conjugado__, debe llamar cada una de las funciones de la siguiente mánera.    
  
-   ![Imgur](https://i.imgur.com/RvCz1Ev.png)
+   ![Imgur](https://i.imgur.com/1PPoFGf.png)
  + Para ejecutar la función __cartesiana__, debe crear un número complejo en forma polar de la misma mánera que se creó un número complejo en forma cartesiana. Sin embargo en este   caso se le asigna a la variable __complex_polar(norma,ángulo)__ , asi ya puede hacer uso de la función __cartesiana__. De la siguiente mánera.   
  
-   ![Imgur](https://i.imgur.com/6q1LP7x.png)
+   ![Imgur](https://i.imgur.com/0iWoVE5.png)
  + Para ejecutar la librería Test_complex siguiendo el primer paso, descargue la libreria y abra el archivo en el __IDLE__. 
      + Para ejecutar la librería simplemente oprima __F5__ en su teclado, el archivo se ejecutara. En la consola, se le mostrará el número de pruebas que se 
      realizaron en el programa, en este caso son 9, una por cada funcion de el programa complex_numbers. 
