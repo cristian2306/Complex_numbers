@@ -1,7 +1,7 @@
 # Numeros Complejos
 Numeros complejos es un proyecto en el cual se encuentra la librería complex_numbers, librería la cual tiene como funcion realizar 
 operaciones basicas de los números complejos, cabe aclarar que se entiende un número complejo como un número con una parte real, y
-una parte imaginaria, en el programa el número complejo se __muestra__ como __real + imaginario*i__, sin embargo al momento de crearlo se presenta como una __tupla(real,img)__.
+una parte imaginaria. En el programa el número complejo se __muestra__ como __real + imaginario*i__, sin embargo al momento de crearlo se presenta como una __tupla(real,img)__.
 Para facilitar la experiencia del usuario, en el siguiente documento se le explica, como se debe usar la libreria, de igual manera, 
 la libreria contiene comentarios en cada una de sus funciones en donde se explica que hace cada funcion.  
 
@@ -26,7 +26,7 @@ la libreria contiene comentarios en cada una de sus funciones en donde se explic
     + Retorna un número complejo en forma cartesiana.
     + Sea un número complejo _C1(a1,b1)_, su conjugado sería _C2(a1,-b1)_.
 - Coordenadas de un número complejo de cartesianas a polares. 
-    + Retorna un número complejo en froma polar.
+    + Retorna un número complejo en forma polar.
     + Sea unnúmero complejo _C1(a,b)_, su forma polar es _C1(modulo, fase)_.
 - Fase de un número complejo.
     + Reetorna un número con el valor de la fase o ángulo de un número complejo.
@@ -40,14 +40,14 @@ la libreria contiene comentarios en cada una de sus funciones en donde se explic
  Para ejecutar de manera eficiente y correcta la libreria complex_numbers siga estos pasos...
  + Descargue el archivo __complex_numbers.py__ del repositorio.
  + Una vez descargado el archivo.py, abra la aplicacion IDLE(Python...), una vez dentro abra el archivo descargado anteriormente y oprima __F5__.
- + Para crear un número complejo, asigne a una variable  __complex_cart(real,img)__, entre el parentesis debe ingresar el valor de la 
+ + Para crear un número complejo, asigne a una variable con el nombre que desee __complex_cart(real,img)__, entre el parentesis debe ingresar el valor de la 
    parte real del número complejo, seguido el valor de la parte imaginaria del número.    
    
    ![Imgur](https://i.imgur.com/TNsnpXW.png)
- + Para ejecutar una operacion entre números complejos(+,-,*,/), asigne a dos variable un número complejo, siguiendo el paso anterior, posterior a esto  operelas
+ + Para ejecutar una operacion entre números complejos(+,-,*,/), asigne a dos variables un número complejo, siguiendo el paso anterior, posterior a esto  operelas
    como lo haría normalmente.   
    
-   ![Imgur](https://i.imgur.com/M9Y5Vzn.png)
+   ![Imgur](https://i.imgur.com/zMsCrNB.png)
  + Para ejecutar las fucniones de __modulo,fase,polar,conjugado__, debe llamar cada una de las funciones de la siguiente mánera.    
  
    ![Imgur](https://i.imgur.com/RvCz1Ev.png)
