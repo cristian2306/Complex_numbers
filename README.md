@@ -57,6 +57,7 @@ la libreria contiene comentarios en cada una de sus funciones en donde se explic
  + Para ejecutar la librería Test_complex siguiendo el primer paso, descargue la libreria y abra el archivo en el __IDLE__. 
      + Para ejecutar la librería simplemente oprima __F5__ en su teclado, el archivo se ejecutara. En la consola, se le mostrará el número de pruebas que se 
      realizaron en el programa, en este caso son 9, una por cada funcion de el programa complex_numbers. 
+     
      ![Imgur](https://i.imgur.com/3nmPvyb.png)
  + Para modificar los valores de prueba, abra el archivo de Test_complex. En el encontrara la def __setUp__, en esta se inicializa cada uno de los números complejos. Si es de su agrado puede cambiar los valores o el nombre de las variables establecidos en el archivo, simplemente mantenga antes de cada nombre el __self.___, asi si desea cambiar la variable self.complex_a por comp1, este pasaría a ser self.comp1. Los valores se cambian en la linea complex_cart(/,/) ó complex_polar(/,/) dependiendo de la forma del número copmlejo, simplemente cambie los valores que se encuentran en los espacios del parentesis. De la siguiente mánera. 
  ![Imgur](https://i.imgur.com/xMbjswT.png)  
