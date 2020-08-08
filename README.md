@@ -36,6 +36,19 @@ la libreria contiene comentarios en cada una de sus funciones en donde se explic
  + Para ejecutar la función __cartesiana__, debe crear un número complejo en forma polar de la misma mánera que se creó un número complejo en forma cartesiana. Sin embargo en este   caso se le asigna a la variable __complex_polar(norma,ángulo)__ , asi ya puede hacer uso de la función __cartesiana__. De la siguiente mánera.   
  
    ![Imgur](https://i.imgur.com/6q1LP7x.png)
+ + Para ejecutar la librería Test_complex siguiendo el primer paso, descargue la libreria y abra el archivo en el __IDLE__. 
+     + Para ejecutar la librería simplemente oprima __F5__ en su teclado, el archivo se ejecutara. En la consola, se le mostrará el número de pruebas que se 
+     realizaron en el programa, en este caso son 9, una por cada funcion de el programa complex_numbers. 
+     ![Imgur](https://i.imgur.com/3nmPvyb.png)
+ + Para modificar los valores de prueba, abra el archivo de Test_complex. En el encontrara la def __setUp__, en esta se inicializa cada uno de los números complejos. Si es de su agrado puede cambiar los valores o el nombre de las variables establecidos en el archivo, simplemente mantenga antes de cada nombre el __self.___, asi si desea cambiar la variable self.complex_a por comp1, este pasaría a ser self.comp1. Los valores se cambian en la linea complex_cart(/,/) ó complex_polar(/,/) dependiendo de la forma del número copmlejo, simplemente cambie los valores que se encuentran en los espacios del parentesis. De la siguiente mánera. 
+ ![Imgur](https://i.imgur.com/xMbjswT.png)  
+     + Para modificar las pruebas de cada función, simplemente cambie el contenido del __str()__, las pruebas estan formadas por dos partes la prueba, y el resultado esperado.
+     __self.assertEqual(str(prueba),str(resultado))__. Debe tener en cuenta que retorna cada función (entero, tupla, decimal) además que recibe cada función(complex_cart(),complex_polar())
+     ![Imgur](https://i.imgur.com/fb07UKm.png)
+     
+ 
+ 
+     
  
  ## Autor
    ___Cristian Andres Castellanos Fino___
