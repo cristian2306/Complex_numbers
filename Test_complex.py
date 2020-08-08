@@ -89,7 +89,6 @@ class Test_complex(unittest.TestCase):
     def test_phase(self):
         """"Test de la función fase de números complejos"""
         self.assertEqual(str(self.complex_a.phase()),str(1.11))
-
         self.assertEqual(str(self.complex_h.phase()),str(0.98))
         self.assertEqual(str(self.complex_f.phase()),str(0.79))
         self.assertEqual(str(self.complex_b.phase()),str(1.11))
