@@ -1,21 +1,39 @@
 # Numeros Complejos
 Numeros complejos es un proyecto en el cual se encuentra la librería complex_numbers, librería la cual tiene como funcion realizar 
 operaciones basicas de los números complejos, cabe aclarar que se entiende un número complejo como un número con una parte real, y
-una parte imaginaria, en el programa el número complejo se __representa__ como __real + imaginario*i__.
+una parte imaginaria, en el programa el número complejo se __muestra__ como __real + imaginario*i__, sin embargo al momento de crearlo se presenta como una __tupla(real,img)__.
 Para facilitar la experiencia del usuario, en el siguiente documento se le explica, como se debe usar la libreria, de igual manera, 
 la libreria contiene comentarios en cada una de sus funciones en donde se explica que hace cada funcion.  
 
 ## Funciones
-
-- Suma de números complejos.  
-- Resta de números complejos.  
+- __Para facilitar la experiencia del usuario todos los números en este programa son redondeados a dos cifras.__
+- Suma de números complejos.
+    + Retorna un número complejo en forma cartesiana.
+    + Sean dos númeroscomplejos _C1(a1,b1)_ y _C2(a2,b2)_, el resulatdo de la suma de estos dos es un número complejo en forma cartesiana _C3(a1+a2, b1+b2)_.
+- Resta de número complejos.
+    + Retorna un número complejo en forma cartesiana.
+    + Sean dos númeroscomplejos _C1(a1,b1)_ y _C2(a2,b2)_, el resulatdo de la resta de estos dos es un número complejo en forma cartesiana _C3(a1-a2, b1-b2)_.
 - Producto entre números complejos.  
+    + Retorna un número complejo en forma cartesiana.
+    + Sean dos número complejos _C1(a1,b1)_ y _C2(a2,b2)_, se realiza el producto entre números complejos, dando asi como resultado un número complejo _C3(a1*a2 - b1*b2, a1*b2 + a2*b1)_
 - Division entre números complejos.  
+    + Retorna un número complejo en forma cartesiana.
+    + Sean dos números complejos _C1(a1,b)_ y _C2(a2,b2)_, se realiza el cocientre dando como resultado un número complejo _C3((a1*a2 + b1*b2)/b1^2, (b1*a2 - a1*b2)/b2^2))_
 - Módulo o norma de un número complejo.  
+    + Retorna el un número con el valor del módulo del número complejo.
+    + Sea un número complejo _C(a,b)_, su módulo se da por _mod = sqrt(a^2+b^2)_.
 - Conjugado de un número complejo.  
+    + Retorna un número complejo en forma cartesiana.
+    + Sea un número complejo _C1(a1,b1)_, su conjugado sería _C2(a1,-b1)_.
 - Coordenadas de un número complejo de cartesianas a polares. 
+    + Retorna un número complejo en froma polar.
+    + Sea unnúmero complejo _C1(a,b)_, su forma polar es _C1(modulo, fase)_.
 - Fase de un número complejo.
+    + Reetorna un número con el valor de la fase o ángulo de un número complejo.
+    + Sea _C(a,b)_ un número complejo, su fase esta dada por _arctan(b/a)_.
 - Coordenadas de un número complejo de polar a cartesianas.  
+    + Retorna un número complejo en forma cartesiana.
+    + Sea un número complejo en forma polar _C(r,tetha)_, su forma cartesiana esta dada por _C(rcos(tetha),rsen(tetha))_.
  
  ## Ejecución  
  
