@@ -1,7 +1,7 @@
 # Numeros Complejos
 Numeros complejos es un proyecto en el cual se encuentra la librería complex_numbers, librería la cual tiene como funcion realizar 
 operaciones basicas de los números complejos, de igual manera contiene funciones con operaciones entre vectores, matrices y escalares complejos. Cabe aclarar que se entiende un número complejo como un número con una parte real, y
-una parte imaginaria. En el programa el número complejo se __muestra__ como __real + imaginario*i__, sin embargo al momento de crearlo se presenta como una __tupla(real,img)__, el vector se __representa__ como una lista __[a,b,c,], donde a,b,c pertenece a loos complejos__, una matriz se representa como una lista de listas __[[a,b,c],[d,e,f],[g,h,i]],donde a,b,c,d,e,f,g pertenece a los complejos__
+una parte imaginaria. En el programa el número complejo se __muestra__ como __real + imaginario*i__, sin embargo al momento de crearlo se presenta como una __tupla(real,img)__, el vector se __representa__ como una lista __[a,b,c,], donde a,b,c pertenecen a los complejos__, una matriz se representa como una lista de listas __A [[a,b,c],[d,e,f],[g,h,i]] ,donde a,b,c,d,e,f,g,h,i y A[0][0] = a pertenecen a los complejos__
 Para facilitar la experiencia del usuario, en el siguiente documento se le explica, como se debe usar la libreria, de igual manera, 
 la libreria contiene comentarios en cada una de sus funciones en donde se explica que hace cada funcion.  
 
@@ -39,7 +39,58 @@ la libreria contiene comentarios en cada una de sus funciones en donde se explic
 - En este programa siempre se refiere a vector, matrices y escalares como complejos.
 - Suma de vectores(complejos).
     + Retorna el vector resultante de la suma de dos vectores, teniendo en cuenta que deben ser de la misma dimensión.
-    + Sean dos vectores complejos _A [a,b,c,...,n],B [x,y,x,...,m]_ el vector resultante de la suma de A+B es _C [a+x,b+y,c+z,...,n+m].
+    + Sean dos vectores complejos _A [a,b,c,...,n],B [x,y,x,...,m]_ el vector resultante de la suma de A+B es _C [a+x,b+y,c+z,...,n+m]_.
+- Inverso aditivo de vectores
+    + Retorna el vector _inverso aditivo_ de un vector
+    + Sea A un vector __C__ de dimension _n_, el vector _B_ inverso aditivo de A es definido como A+B = 0
+- Producto entre un escalar y un vector.
+    + Retorna el vector resultante de el producto entre un escalar y un vector.
+    + Sea A un vector de dimension n y z un escalar complejo, z*A = C de dimension n, C[i] = z*A[i]
+- Suma matrices complejas.
+    + Rerorna la matriz resultante de la suma entre dos matrices.
+    + Sea A y B matrices de dimension _m*n_, la matriz resultante de la suma de A y B esta definida como: C[i][j] = A[i][j] + B[i][j].
+- Inverso aditivo de un matriz.
+    + Retorna la matriz _inversa aditiva_ de una matriz.
+    + Sea A una matriz de dimensiones _m*n_, su matriz B _inversa aditiva_ de dimension _m*n_ es definida como A+B = 0
+- Producto escalar matriz.
+    + Retorna la matriz resultante de el producto entre un escalar y una matriz
+    + Sea A una matriz de dimensiones _m*n_ y x un escalar, la matriz resultante C del producto x*A esta definida como C[i][j] = z*A[i][j].
+- Transpuesta de una matriz, vector.
+    + Retorna la matriz/vector  traspuesta/o de una matriz/vector.
+    + Sea A una matriz de dimensiones _m*n_ y B un vector de dimension _l_, la matriz transpuesta de A,C, y el vector transpuesto de B,D, estan definidos como. C[i][j] = A[j][i] donde C es de dimensiones _n*m_, D[i] = [[A[i]]], donde D es de dimension _l_.
+- Conjugado de una matriz/vector.
+    + Retorna la matriz/vector conjugada/o de una matriz/vector.
+    + Sea A una matriz de dimensiones _m*n_ y B un vector de dimension _l_, la matriz conjugada de A,C, y el vector conjugado de B,D, estan definidos como. C[i][j] = conjugado(A[i][j]) donde C es de dimensiones _m*n_, D[i] = conjugado(B[i][j]), donde D es de dimension _l_.
+- Adjunta de una matriz/vector.
+    + Retorna la matriz/vector adjunta/o de una matriz/vector.
+    + Sea A una matriz de dimensiones _m*n_ y B un vector de dimension _l_, la matriz adjunta de A,C, y el vector adjunto de B,D, estan definidos como. C = transpuesta(conjugado(A)) donde C es de dimensiones _n*m_, D = conjugado(transpuesta(B)), donde D es de dimension _l_.
+- Producto entre matrices
+    + Retorna la matriz resultante del producto entre dos matrices.
+    + Sea A una matriz de dimensiones _m*n_ y B una matriz de dimensiones _n*l_, la matriz resultante del produto entre A y B, es la matriz C, definida como C[i][j] = (+k|0 <= k <n: A[i][k]*B[k][j]), de dimensiones _m*l_.
+- Accion de un mariz sobre un vector.
+    + Retorna el vector resultantes del resultado de la accion de una matriz sobre un vecor.
+    + Sea A una matriz de dimensiones _m*n_ y B un vector de dimension _n_, C es el vector resultantes de la accion de A sobre B, definida como C[i] = (+j| 0<=j < n: A[i][j]*B[j]).
+- Producto interno entre vectores.
+    + Retorna el valor resultantes de el producto interno entre vectores.
+    + Sea A un vector de dimension _n_ y B un vector de dimension _n_, el producto interno entre A y B denotado como <A,B>, es definido como. <A,B> = (+i| 0<= i< n: A[i][0]*B[i]).
+- Norma de un vector.
+    + Retorna el valor resultante de la norma de un vector.+
+    + Sea A un vector de dimension _n_, la norma del vector A denotado como |A|, es definido por |A| = <adjunta(A),A>.
+- Distancia entre vectores.
+    + Retorna el valor de la distancia entre dos vectores.
+    + Sea A un vector de dimension _n_ y B un vector de dimension _n_, la distancia entre A y B, denotado como d(A,B) es definido como d(A,B)= |A-B|
+- Unitario.
+    + Retorna si una matriz es unitaria o no.
+    + Sea una matriz A de dimension n*n, se dice que A es unitaria si y solo si A = adjunta(A).
+- Hermitiana.
+    + Retorna si una matriz es hermitiana o no.
+    + Sea una matriz A de dimension _n*n_, se dice que A es hermitiana si y solo si A = adjunta(A) = I_n, donde I_n es la matriz identidad de dimension _n*n_.
+- Producto tensor.
+    + Retorna la matriz/vector de el producto tensor entre dos matrices/vectores.
+    + Sea A una matriz _n*m_ y B una matriz _k*l_, C la matriz resultante de el producto tensor de A y B , donde C[i][j] = A[i//k][j//l]*B[i%k][j%l], de dimensiones _(nk)*(ml)_.
+    + Sea A un vector de dimension _n_ y B un vector de dimension _m_, C el vector resultante de el producto tensor de A y B, donde C[i] = A[i//m]*B[j%m], de dimension _mn_.
+    
+
     
  
  ## Ejecución  
