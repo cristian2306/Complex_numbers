@@ -1,11 +1,11 @@
 # Numeros Complejos
 Numeros complejos es un proyecto en el cual se encuentra la librería complex_numbers, librería la cual tiene como funcion realizar 
-operaciones basicas de los números complejos, cabe aclarar que se entiende un número complejo como un número con una parte real, y
-una parte imaginaria. En el programa el número complejo se __muestra__ como __real + imaginario*i__, sin embargo al momento de crearlo se presenta como una __tupla(real,img)__.
+operaciones basicas de los números complejos, de igual manera contiene funciones con operaciones entre vectores, matrices y escalares complejos. Cabe aclarar que se entiende un número complejo como un número con una parte real, y
+una parte imaginaria. En el programa el número complejo se __muestra__ como __real + imaginario*i__, sin embargo al momento de crearlo se presenta como una __tupla(real,img)__, el vector se __representa__ como una lista __[a,b,c,], donde a,b,c pertenece a loos complejos__, una matriz se representa como una lista de listas __[[a,b,c],[d,e,f],[g,h,i]],donde a,b,c,d,e,f,g pertenece a los complejos__
 Para facilitar la experiencia del usuario, en el siguiente documento se le explica, como se debe usar la libreria, de igual manera, 
 la libreria contiene comentarios en cada una de sus funciones en donde se explica que hace cada funcion.  
 
-## Funciones
+## Funciones complejos
 - __Para facilitar la experiencia del usuario todos los números en este programa son redondeados a dos cifras.__
 - Suma de números complejos.
     + Retorna un número complejo en forma cartesiana.
@@ -34,6 +34,13 @@ la libreria contiene comentarios en cada una de sus funciones en donde se explic
 - Coordenadas de un número complejo de polar a cartesianas.  
     + Retorna un número complejo en forma cartesiana.
     + Sea un número complejo en forma polar _C(r,tetha)_, su forma cartesiana esta dada por _C(rcos(tetha),rsen(tetha))_.
+    
+## Funciones vectores/matricez complejas
+- En este programa siempre se refiere a vector, matrices y escalares como complejos.
+- Suma de vectores(complejos).
+    + Retorna el vector resultante de la suma de dos vectores, teniendo en cuenta que deben ser de la misma dimensión.
+    + Sean dos vectores complejos _A [a,b,c,...,n],B [x,y,x,...,m]_ el vector resultante de la suma de A+B es _C [a+x,b+y,c+z,...,n+m].
+    
  
  ## Ejecución  
  
