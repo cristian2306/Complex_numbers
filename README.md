@@ -96,8 +96,8 @@ la libreria contiene comentarios en cada una de sus funciones en donde se explic
  ## Ejecución  
  
  Para ejecutar de manera eficiente y correcta la libreria complex_numbers siga estos pasos...
- + Descargue el archivo __complex_numbers.py__ del repositorio.
- + Una vez descargado el archivo.py, abra la aplicacion IDLE(Python...), una vez dentro abra el archivo descargado anteriormente y oprima __F5__.
+ + Descargue el archivo __complex_numbers.py__ del repositorio,desde la opcion open(parte superior), en el menu deplegable seleccione Dowloand Zip.
+ + Una vez descargado el archivo.py, abra la aplicacion IDLE(Python...), una vez dentro abra el archivo descargado anteriormente y oprima __F5__.Si usted no tiene la aplicacion anteriormente nombrado puede descargarla desde [Python](https://www.python.org/downloads/). 
  + Para crear un número complejo, asigne a una variable con el nombre que desee __complex_cart(real,img)__, entre el parentesis debe ingresar el valor de la 
    parte real del número complejo, seguido el valor de la parte imaginaria del número.    
    
