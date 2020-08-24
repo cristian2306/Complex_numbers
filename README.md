@@ -142,19 +142,31 @@ la libreria contiene comentarios en cada una de sus funciones en donde se explic
      
  + Para ejecutar el archivo mat_op.py, siga el paso 2 y ejecutelo.
  
- + Para crear un vector real de n dimension, en la consola digite [a,b,c,...,n], y asignelo si es de su preferencia a una variable.
- + para crear un vector complejo de n dimension, en la consola digite [complex_cart(a,a'),complex_cart(b,b'),...,complex_cart(n,n')], y asignelo si es de su preferencia a una variable.
-    ![Imgur](https://i.imgur.com/eTkTkfQ.png)
- + Para crear una matriz real de dimensiones _n*m_, en la consola digite [[a,b,c,...,n],...,[m]], y asignelo si es de su preferencia  una variable.
- + Para crear una matriz compleja de dimensiones _n*m_, en la consola digite [[complex_cart(a,a'),complex_cart(b,b'),...,complex_cart(n,n')],...,[m]], y asignelo si es de su preferencia  una variable.
-    ![Imgur](https://i.imgur.com/7MvXgXL.png)
- + Para elegir cualquiera de los componentes de la matriz o vector tenga en cuenta sus dimensiones, para llamar un componente de un vector de dimension n simplemenmte digite vector[i], donde 0<= i < n.
+ + Para crear un vector real de n dimension, en la consola digite [a,b,c,...,n], y asignelo si es de su preferencia a una variable.    
+ 
+ + para crear un vector complejo de n dimension, en la consola digite [complex_cart(a,a'),complex_cart(b,b'),...,complex_cart(n,n')], y asignelo si es de su preferencia a una variable.    
+ 
+    ![Imgur](https://i.imgur.com/eTkTkfQ.png)    
+    
+ + Para crear una matriz real de dimensiones _n*m_, en la consola digite [[a,b,c,...,n],...,[m]], y asignelo si es de su preferencia  una variable.    
+ 
+ + Para crear una matriz compleja de dimensiones _n*m_, en la consola digite [[complex_cart(a,a'),complex_cart(b,b'),...,complex_cart(n,n')],...,[m]], y asignelo si es de su preferencia  una variable.    
+ 
+    ![Imgur](https://i.imgur.com/7MvXgXL.png)    
+    
+ + Para elegir cualquiera de los componentes de la matriz o vector tenga en cuenta sus dimensiones, para llamar un componente de un vector de dimension n simplemenmte digite vector[i], donde 0<= i < n.    
+ 
  + Para llamar una componente de una matriz de dimensiones _n*m_, digite matriz[i][j], donde 0<= i< m, 0<=j<n. Para llamar una fila de la matriz digite matriz[i], donde 0<=i<m.
-    ![Imgur](https://i.imgur.com/WBmRjo5.png)
- + Para ejecutar cada una de las funciones tenga en cuenta como se llama a cada una, en la seccion funciones vectores/matrices complejas encuentra esta informacion.
- + Acontinuacion encontrara ejemplos de como usar el archivo mat_op.py.
-    ![Imgur](https://i.imgur.com/hUpMaDF.png)
-    ![Imgur](https://i.imgur.com/Cvz4jOQ.png)
+    ![Imgur](https://i.imgur.com/WBmRjo5.png)    
+    
+ + Para ejecutar cada una de las funciones tenga en cuenta como se llama a cada una, en la seccion funciones vectores/matrices complejas encuentra esta informacion.    
+ 
+ + Acontinuacion encontrara ejemplos de como usar el archivo mat_op.py.    
+ 
+    ![Imgur](https://i.imgur.com/hUpMaDF.png)    
+    
+    ![Imgur](https://i.imgur.com/Cvz4jOQ.png)    
+    
     ![Imgur](https://i.imgur.com/MbjG27a.png)
      
  
