@@ -169,6 +169,7 @@ la libreria contiene comentarios en cada una de sus funciones en donde se explic
     
     ![Imgur](https://i.imgur.com/MbjG27a.png)
      
+ aja compae 'complex_cart(1,2)' no joda   
  
  
      
