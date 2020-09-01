@@ -85,7 +85,7 @@ class complex_cart(complex_number):
     
     def phase(self):
         """Retorna la fase de un número complejo"""
-        return round((math.atan(self.b/self.a)),2)
+        return round((math.atan2(self.b,self.a)),2)
     
 class complex_polar(complex_number):
     
