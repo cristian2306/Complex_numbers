@@ -1,7 +1,7 @@
 # Numeros Complejos
 Numeros complejos es un proyecto en el cual se encuentra la librería complex_numbers, librería la cual tiene como funcion realizar 
 operaciones basicas de los números complejos, de igual manera contiene funciones con operaciones entre vectores, matrices y escalares complejos. Cabe aclarar que se entiende un número complejo como un número con una parte real, y
-una parte imaginaria. En el programa el número complejo se __muestra__ como `real + imaginario*i__`, sin embargo al momento de crearlo se presenta como una __tupla(real,img)__, el vector se __representa__ como una lista __[a,b,c,], donde a,b,c pertenecen a los complejos__, una matriz se representa como una lista de listas __A [[a,b,c],[d,e,f],[g,h,i]] ,donde a,b,c,d,e,f,g,h,i y A[0][0] = a pertenecen a los complejos__
+una parte imaginaria. En el programa el número complejo se __muestra__ como `real + imaginario*i__`, sin embargo al momento de crearlo se presenta como una __tupla(real,img)__, el vector se __representa__ como una lista __[a,b,c,], donde a,b,c pertenecen a los complejos__, una matriz se representa como una lista de listas `A [[a,b,c],[d,e,f],[g,h,i]]` ,donde a,b,c,d,e,f,g,h,i y `A[0][0] = a` pertenecen a los complejos__
 Para facilitar la experiencia del usuario, en el siguiente documento se le explica, como se debe usar la libreria, de igual manera, 
 la libreria contiene comentarios en cada una de sus funciones en donde se explica que hace cada funcion.  
 
@@ -114,8 +114,8 @@ la libreria contiene comentarios en cada una de sus funciones en donde se explic
  
  Para ejecutar de manera eficiente y correcta la libreria complex_numbers siga estos pasos...
  + Descargue el archivo __complex_numbers.py__ del repositorio,desde la opcion open(parte superior), en el menu deplegable seleccione Dowloand Zip.
- + Una vez descargado el archivo.py, abra la aplicacion IDLE(Python...), una vez dentro abra el archivo descargado anteriormente y oprima __F5__.Si usted no tiene la aplicacion anteriormente nombrado puede descargarla desde [Python](https://www.python.org/downloads/). 
- + Para crear un número complejo, asigne a una variable con el nombre que desee __complex_cart(real,img)__, entre el parentesis debe ingresar el valor de la 
+ + Una vez descargado el archivo.py, abra la aplicacion IDLE(Python...), una vez dentro abra el archivo descargado anteriormente y oprima __F5__.Si usted no tiene la aplicacion anteriormente nombrada puede descargarla desde [Python](https://www.python.org/downloads/). 
+ + Para crear un número complejo, asigne a una variable con el nombre que desee `complex_cart(real,img)`, entre el parentesis debe ingresar el valor de la 
    parte real del número complejo, seguido el valor de la parte imaginaria del número.    
    
    ![Imgur](https://i.imgur.com/TNsnpXW.png)
@@ -126,35 +126,35 @@ la libreria contiene comentarios en cada una de sus funciones en donde se explic
  + Para ejecutar las fucniones de __modulo,fase,polar,conjugado__, debe llamar cada una de las funciones de la siguiente mánera.    
  
    ![Imgur](https://i.imgur.com/1PPoFGf.png)
- + Para ejecutar la función __cartesiana__, debe crear un número complejo en forma polar de la misma mánera que se creó un número complejo en forma cartesiana. Sin embargo en este   caso se le asigna a la variable __complex_polar(norma,ángulo)__ , asi ya puede hacer uso de la función __cartesiana__. De la siguiente mánera.   
+ + Para ejecutar la función __cartesiana__, debe crear un número complejo en forma polar de la misma mánera que se creó un número complejo en forma cartesiana. Sin embargo en este caso se le asigna a la variable `complex_polar(norma,ángulo)` , asi ya puede hacer uso de la función __cartesiana__. De la siguiente mánera.   
  
    ![Imgur](https://i.imgur.com/0iWoVE5.png)
  + Para ejecutar la librería Test_complex siguiendo el primer paso, descargue la libreria y abra el archivo en el __IDLE__. 
      + Para ejecutar la librería simplemente oprima __F5__ en su teclado, el archivo se ejecutara. En la consola, se le mostrará el número de pruebas que se 
-     realizaron en el programa, en este caso son 9, una por cada funcion de el programa complex_numbers. 
+     realizaron en el programa, en este caso son 9, una por cada funcion de el programa _complex_numbers_. 
      
      ![Imgur](https://i.imgur.com/3nmPvyb.png)
- + Para modificar los valores de prueba, abra el archivo de Test_complex. En el encontrara la def __setUp__, en esta se inicializa cada uno de los números complejos. Si es de su agrado puede cambiar los valores o el nombre de las variables establecidos en el archivo, simplemente mantenga antes de cada nombre el __self.___, asi si desea cambiar la variable self.complex_a por comp1, este pasaría a ser self.comp1. Los valores se cambian en la linea complex_cart(/,/) ó complex_polar(/,/) dependiendo de la forma del número copmlejo, simplemente cambie los valores que se encuentran en los espacios del parentesis. De la siguiente mánera. 
+ + Para modificar los valores de prueba, abra el archivo de Test_complex. En el encontrara la def `setUp`, en esta se inicializa cada uno de los números complejos. Si es de su agrado puede cambiar los valores o el nombre de las variables establecidos en el archivo, simplemente mantenga antes de cada nombre el __self.___, asi si desea cambiar la variable `self.complex_a` por `comp1`, este pasaría a ser `self.comp1`. Los valores se cambian en la linea `complex_cart(/,/)` ó `complex_polar(/,/)` dependiendo de la forma del número copmlejo, simplemente cambie los valores que se encuentran en los espacios del parentesis. De la siguiente mánera. 
  ![Imgur](https://i.imgur.com/xMbjswT.png)  
-     + Para modificar las pruebas de cada función, simplemente cambie el contenido del __str()__, las pruebas estan formadas por dos partes la prueba, y el resultado esperado.
-     __self.assertEqual(str(prueba),str(resultado))__. Debe tener en cuenta que retorna cada función (entero, tupla, decimal) además que recibe cada función(complex_cart(),complex_polar())
+     + Para modificar las pruebas de cada función, simplemente cambie el contenido del `str()`, las pruebas estan formadas por dos partes la prueba, y el resultado esperado.
+     `self.assertEqual(str(prueba),str(resultado))`. Debe tener en cuenta que retorna cada función (entero, tupla, decimal) además que recibe cada función(complex_cart(),complex_polar())
      ![Imgur](https://i.imgur.com/fb07UKm.png)
      
  + Para ejecutar el archivo mat_op.py, siga el paso 2 y ejecutelo.
  
- + Para crear un vector real de n dimension, en la consola digite [a,b,c,...,n], y asignelo si es de su preferencia a una variable.    
+ + Para crear un vector real de n dimension, en la consola digite `[a,b,c,...,n]`, y asignelo si es de su preferencia a una variable.    
  
- + para crear un vector complejo de n dimension, en la consola digite [complex_cart(a,a'),complex_cart(b,b'),...,complex_cart(n,n')], y asignelo si es de su preferencia a una variable.    
+ + para crear un vector complejo de n dimension, en la consola digite `[complex_cart(a,a'),complex_cart(b,b'),...,complex_cart(n,n')]`, y asignelo si es de su preferencia a una variable.    
  
     ![Imgur](https://i.imgur.com/eTkTkfQ.png)    
     
- + Para crear una matriz real de dimensiones _n*m_, en la consola digite [[a,b,c,...,n],...,[m]], y asignelo si es de su preferencia  una variable.    
+ + Para crear una matriz real de dimensiones _n*m_, en la consola digite `[[a,b,c,...,n],...,[a_m,b_m,c_m,...,n_m]]`, y asignelo si es de su preferencia  una variable.    
  
- + Para crear una matriz compleja de dimensiones _n*m_, en la consola digite [[complex_cart(a,a'),complex_cart(b,b'),...,complex_cart(n,n')],...,[m]], y asignelo si es de su preferencia  una variable.    
+ + Para crear una matriz compleja de dimensiones _n*m_, en la consola digite `[[complex_cart(a,a'),complex_cart(b,b'),...,complex_cart(n,n')],...,[complex_cart(a_m,a'),complex_cart(b_m,b'),...,complex_cart(n_m,n')]]`, y asignelo si es de su preferencia  una variable.    
  
     ![Imgur](https://i.imgur.com/7MvXgXL.png)    
     
- + Para elegir cualquiera de los componentes de la matriz o vector tenga en cuenta sus dimensiones, para llamar un componente de un vector de dimension n simplemenmte digite vector[i], donde 0<= i < n.    
+ + Para elegir cualquiera de los componentes de la matriz o vector tenga en cuenta sus dimensiones, para llamar un componente de un vector de dimension n simplemenmte digite `vector[i]`, donde 0<= i < n.    
  
  + Para llamar una componente de una matriz de dimensiones _n*m_, digite matriz[i][j], donde 0<= i< m, 0<=j<n. Para llamar una fila de la matriz digite matriz[i], donde 0<=i<m.
     ![Imgur](https://i.imgur.com/WBmRjo5.png)    
