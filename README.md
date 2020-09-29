@@ -169,10 +169,8 @@ la libreria contiene comentarios en cada una de sus funciones en donde se explic
     
     ![Imgur](https://i.imgur.com/MbjG27a.png)
     
-```
-1. creee unoanaosanlksjad
-2. askjdañslkjdñlsa
-```
+
+
  
      
  
